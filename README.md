@@ -1,0 +1,1 @@
+A card form that takes input and displays it on the card visually. Also checks if the input meets the requirement and displays error messages depending on the input. Once filled in you can proceed and it will refresh.
