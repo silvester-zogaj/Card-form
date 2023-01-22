@@ -322,16 +322,17 @@ expiry-label-offscreen {
   .card {
     height: 22rem;
     width: 38rem;
+    transform: scale(1.1);
   }
 
   .card__front {
     top: 17rem;
-    left: 10%;
+    left: 12%;
   }
 
   .card__back {
-    top: 40rem;
-    left: 15%;
+    top: 44rem;
+    left: 17%;
   }
 
   .form {
