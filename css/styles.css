@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
 /*========================
        GLOBAL STYLES
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   padding-bottom: 70rem;
 }
 
@@ -39,7 +39,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type="number"] {
+input[type='number'] {
   -moz-appearance: textfield;
 }
 
@@ -50,8 +50,17 @@ input[type="number"] {
 .gradient-bg {
   height: 45rem;
   width: 100%;
-  background: linear-gradient(purple, transparent), linear-gradient(to top left, black, transparent),
-    linear-gradient(to top right, royalblue, transparent);
+  background: linear-gradient(purple, transparent),
+    linear-gradient(
+      to top left,
+      black,
+      transparent
+    ),
+    linear-gradient(
+      to top right,
+      royalblue,
+      transparent
+    );
   background-blend-mode: multiply;
   z-index: -1;
 }
@@ -66,7 +75,13 @@ input[type="number"] {
   top: 29rem;
   left: 13%;
   z-index: 2;
-  background: linear-gradient(45deg, purple 0%, black 50%, black 60%, purple 100%);
+  background: linear-gradient(
+    45deg,
+    purple 0%,
+    black 50%,
+    black 60%,
+    purple 100%
+  );
 }
 
 .circle {
@@ -119,7 +134,11 @@ input[type="number"] {
 }
 
 .card__back {
-  background: linear-gradient(90deg, #efedee, #b5b8b3);
+  background: linear-gradient(
+    90deg,
+    #efedee,
+    #b5b8b3
+  );
   z-index: 1;
   top: 12rem;
   left: 22%;
@@ -269,7 +288,11 @@ expiry-label-offscreen {
 .fa-circle-check {
   font-size: 11rem;
   margin-top: 10rem;
-  background: linear-gradient(-45deg, purple, blue);
+  background: linear-gradient(
+    -45deg,
+    purple,
+    blue
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -295,18 +318,22 @@ expiry-label-offscreen {
   .card {
     transform: scale(0.8);
   }
+
+  .card__front,
+  .card__back {
+    transform: translate(-20%, -30%) scale(0.65);
+  }
+
   .card__front {
-    top: 33rem;
-    left: 5%;
+    top: 43rem;
   }
 
   .card__back {
-    top: 20rem;
-    left: 14%;
+    top: 30rem;
   }
 
   .form {
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -50%) scale(0.7);
   }
 }
 
